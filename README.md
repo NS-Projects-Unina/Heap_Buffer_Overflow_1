@@ -8,8 +8,8 @@ L’idea è quella di estrarre il concetto chiave implementando un server vulner
 
 Il server riceve un campo `LENGTH` controllato dall’utente e lo utilizza direttamente per copiare dati in un buffer heap senza verificare la dimensione. Questo permette di causare un heap overflow e di sovrascrivere un puntatore a funzione, controllando così il flusso di esecuzione.
 
-## Possibili scenari
-Gli scenari che si vogliono analizzare sono:
+## Scenari analizzati
+Gli scenari che sono stati analizzati sono:
 * Senza protezioni
 * Con protezioni attive
 * Con protezioni disabilitate ma introducendo il fix (bounds checking)
@@ -20,7 +20,6 @@ Gli scenari che si vogliono analizzare sono:
 Il progetto include una fase di osservazione tramite sistemi di intrusion detection:
 * **Snort (NIDS)** per analizzare il traffico di rete e rilevare pattern associati all’exploit
 
-### Opzionale
 * **Falco (HIDS)** per monitorare il comportamento del sistema durante l’attacco e confrontare payload standard e offuscati
 
 ## Obiettivi del progetto
