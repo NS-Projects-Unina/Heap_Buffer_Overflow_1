@@ -50,4 +50,3 @@ Il progetto include una fase di osservazione tramite sistemi di intrusion detect
 \- Valutare l’efficacia dei sistemi IDS nel rilevare attacchi (anche offuscati)
 
 \- Evidenziare come la validazione dell’input prevenga queste vulnerabilità
-
