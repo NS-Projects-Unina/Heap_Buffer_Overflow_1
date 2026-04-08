@@ -1,7 +1,6 @@
 \# Heap Buffer Overflow Project
 
 
-
 \## Introduzione
 
 Il progetto si ispira a vulnerabilità reali come Windows SPNEGO heap overflow (CVE-2025-47981), in cui un errore nella fase di parsing di input di rete porta a un heap buffer overflow.
