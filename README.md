@@ -1,4 +1,5 @@
 # Heap Buffer Overflow Project
+<img width="1160" height="583" alt="image" src="https://github.com/user-attachments/assets/a7a3fc47-db4d-4dda-b84d-6da65236478a" />
 
 ## Introduzione
 Il progetto si ispira a vulnerabilità reali come **Windows SPNEGO heap overflow** (`CVE-2025-47981`), in cui un errore nella fase di parsing di input di rete porta a un heap buffer overflow.
