@@ -24,7 +24,7 @@ Gli scenari che si vogliono analizzare sono:
 
 \- Con protezioni attive
 
-\- Con ASLR disabilitato ma introducendo il fix (bounds checking)
+\- Con protezioni disabilitate ma introducendo il fix (bounds checking)
 
 
 
