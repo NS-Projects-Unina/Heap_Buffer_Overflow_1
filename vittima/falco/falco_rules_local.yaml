@@ -1,0 +1,5 @@
+- rule: Shell da server vulnerabile
+  desc: "Il server vulnerabile ha eseguito una shell tramite system()"
+  condition: evt.type = execve and proc.name in ("sh","bash")
+  output: "[ALERT] Server vulnerabile ha eseguito una shell! (user=%user.name pid=%proc.pid cmd=%proc.cmdline)"
+  priority: CRITICAL
