@@ -15,6 +15,8 @@ Gli scenari che si vogliono analizzare sono:
 * Con protezioni disabilitate ma introducendo il fix (bounds checking)
 
 ## Analisi con IDS
+<img width="704" height="380" alt="image" src="https://github.com/user-attachments/assets/7cc5316b-22bc-4014-b3bd-27bd837eac70" />
+
 Il progetto include una fase di osservazione tramite sistemi di intrusion detection:
 * **Snort (NIDS)** per analizzare il traffico di rete e rilevare pattern associati all’exploit
 
